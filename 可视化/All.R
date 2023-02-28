@@ -57,5 +57,5 @@ wordcloud2(wordfreqs,size =0.5, fontFamily = "微软雅黑",  color = "random-li
 ###########################积极评价的词云图
 com_pos <- subset(com,sen_label=1)
 write.csv(com_pos,"D:/人力资源管理课程/3-上-人力资源统计学/报告/pos.csv")
-#靠，原来没有正面评价啊,我还以为我搞错了
+#原来没有正面评价啊,我还以为我搞错了。符合我的预期，人力资源狗都不读
 
